@@ -1,0 +1,13 @@
+{
+  "name": "koami-obs-server",
+  "version": "1.0.0",
+  "description": "Server for bridging Discord bot commands to OBS via WebSocket",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0"
+  }
+}
